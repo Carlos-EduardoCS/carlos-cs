@@ -3,6 +3,8 @@
 /* imports */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 /*
 cores
 #170126 - roxo
@@ -18,29 +20,27 @@ cores
     margin: 0px; 
     padding: 0px;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
 }
 
 body{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: rgb(0, 0, 0);
-    background-image: url(../imagens/wal.II.jpg); 
-    background-repeat: no-repeat;
+    background-image: url(../imagens/Sem\ título.jpg);
     background-size: cover;
     background-position: top;
     
+   
 }
 
 h1{
     position: absolute;
-    top: 240px;
+    top: 230px;
     left: 35px;
     color: white;
+    text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.705);
     font-family: 'Poppins', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 p{
@@ -49,16 +49,23 @@ p{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: normal;
-    top: 430px;
-    left: 0px;
+    top: 428px;
+    left: 8px;
     padding: 10px;
     height: 28vh;
-
-    background-color: #170126;
+    text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.705);
 }
 
 strong{
-    color: #8b47b8; 
+    position: absolute;
+    left: 257px;
+    top: 10px;
+    color: yellow; 
+    font-family: 'Press Start 2P', cursive;;
+}
+
+span{
+    color: yellow;
 }
 
 .memoji{
@@ -72,8 +79,8 @@ strong{
 .intro{
     background-color: transparent;
     top: 270px;
-    left: 35px;
+    left: 29px;
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
 }
