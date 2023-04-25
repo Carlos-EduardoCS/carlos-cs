@@ -30,8 +30,6 @@ body{
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
-    
-   
 }
 
 h1{
@@ -67,6 +65,11 @@ strong{
 
 span{
     color: yellow;
+}
+
+main{
+    display: block;
+    background-color: rgb(255, 255, 255);
 }
 
 .memoji{
