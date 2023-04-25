@@ -29,6 +29,7 @@ body{
     background-image: url(../imagens/Sem\ título.jpg);
     background-size: cover;
     background-position: top;
+    background-repeat: no-repeat;
     
    
 }
