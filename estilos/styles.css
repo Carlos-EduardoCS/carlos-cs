@@ -3,89 +3,108 @@
 /* imports */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap');
 
 /*
 cores
-#170126 - roxo
-#201D73 - azul
-#120125 - azul escuro
-#590202- laranja
-#590202 - vermelho
+#181818
 */
 
+/*
+popins: font-family: 'Poppins', sans-serif;
 
+
+*/
 
 *{
-    margin: 0px; 
+    font-family: 'Poppins';
+}
+
+body, ul{
+    background-color: #181818;
+    margin: 0px;
     padding: 0px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: aquamarine;
+}
+
+#logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#header{
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-body{
+    height: 65px;
+    padding: 1rem;
     display: flex;
-    background-image: url(../imagens/minimalist-wallpaper-20102315104624.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(180deg, #00000057,  #18181800);
 }
 
-h1{
-    position: absolute;
-    top: 230px;
-    left: 35px;
-    color: white;
-    text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.705);
-    font-family: 'Poppins', sans-serif;
-    font-size: 35px;
+#menu{
+    display: flex;
+    list-style: none;
+    gap: .5rem;
 }
 
-p{
-    position: absolute;
-    color: rgb(255, 255, 255);
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-    top: 428px;
-    left: 8px;
-    padding: 10px;
-    height: 28vh;
-    text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.705);
-}
-
-strong{
-    position: absolute;
-    left: 229px;
-    top: 15px;
-    color: yellow; 
-    font-family: 'Press Start 2P', cursive;;
-    font-size: 0.8em;
-}
-
-span{
-    color: yellow;
-}
-
-main{
+#menu a {
     display: block;
-    background-color: rgb(255, 255, 255);
+    padding: .5rem;
 }
 
-.memoji{
+#btn-mobile{
+    display: none;
+
+}
+
+@media (max-width: 600px){
+    #btn-mobile{
+        display: block;
+    }
+
+    #menu{
+        display: block; 
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background-color: #181818;
+        display: block;
+        height: cal(100vh-70px);
+        z-index: 1000;
+    }
+
+    #nav.active #menu{
+        display: block;
+    }
+    
+}
+
+menu a {
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid aquamarine;
+}
+
+
+.apresen{
+    font-size: 1.4em;
     position: absolute;
-    height: 250px;
-    left: 350px;
-    top: 140px;
-
+    top: 250px;
+    left: 15px;
+    color: white;
+    display: block;
 }
 
-.intro{
-    background-color: transparent;
-    top: 270px;
-    left: 29px;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+.cor{
+    color: aquamarine;
 }

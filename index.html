@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,43 +11,60 @@
     <link rel="stylesheet" href="estilos/media-query.css">
 
 
+
     <title>Carlos - Developer </title>
 </head>
 <body>
+    <header id="header">
+        <a id="logo" href="#">Logo</a>
+        <nav id="nav">
+            <button id="btn-mobile">
+                Menu
+            </button>
 
-    <header>
-        <nav>
-        
+            <ul id="menu">
+                <a href="#">
+                    <li>Home</li>
+                </a>
+
+                <a href="#">
+                    <li>Sobre</li>
+                </a>
+
+                <a href="#">
+                    <li>Contatos</li>
+                </a>
+            </ul>
         </nav>
     </header>
-    
-    <article>
-        <h1>
-            Meu nome é <strong>Carlos</strong>
-        </h1>
-        <p class="intro">
-            e eu sou 
-            <span>
-                developer
-            </span>
-        </p>
 
-
-
-        <main>
-            <p>
-                Oii, meu nome é Carlos Eduardo, sou Brasileiro e moro na cidade de Sumaré em São Paulo capital, tenho 17 anos, e sou Dev-Jr. <br> 
-
-                Atualmente estou cursando Eletroeletrônica no COTUCA - Colégio Técnico de Campinas. <br>
-                
-                Minha paixão pela programação veio depois que vi alguns amigos programando, e quis saber mais a respeito. <br>
-
-                Então desde de Janeiro estou me aprofundando mais e mais na programação.
-            </p>
-        </main>
-
-    </article>
-
-
+    <main>
+        <article>
+            <div class="apresen">
+                <h1>
+                    Meu nome é
+                        <span class="cor">
+                            Carlos
+                        </span>
+                </h1>
+                <p>
+                    e, eu sou 
+                    <span class="cor">
+                        developer
+                    <span>
+                </p>
+            </div>
+        </article>
+    </main>
 </body>
+    <script>
+    const btnMobile = document.getElementyById('btn-mobile');
+
+    function toggleMenu(){
+    const nav = document.getElementyById('nav');
+    nav.classList.toggle('active')
+    }
+
+    btnMobile.addEvenetListener('click,toggleMenu');
+    </script>
 </html>
