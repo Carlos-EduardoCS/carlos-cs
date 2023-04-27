@@ -14,83 +14,35 @@ High-res laptop or desktop: 1920 x 1080
 
 */
 
-@media (max-width: 720px){
-    #btn-mobile{
-        display:flex;
-        padding: .5rem 1rem;
-        font-size: 1rem;
-        border: none;
-        background: none;
-        color: white;
-        cursor: pointer;
-        gap: .5rem;
+/* desktops configs */
+@media (min-width: 721px){
+    body{
+        background-image: url(../imagens/20230427_150013\ \(1\).jpg);
     }
 
-    .hamburger{
-        color: white;
-        width: 20px;
-        border-top: 2px solid;
+    #logo{
+        align-items: center;
+        margin-left: 50%;
     }
 
-    .hamburger::after, .hamburger::before{
+    .apresen{
+        font-size: 1.4em;
+        position: absolute;
+        top: 300px;
+        left: 30px;
+        color: white;
         display: block;
-        content: '';
-        width: 20px;
-        height: 2px;
-        margin-top: 7px;
-        background: currentColor;
-        transition: .4s;
-        position: relative;
     }
 
-    #nav.active .hamburger{
-        transition: .2s;
-        border-top-color: transparent;
-
+    .memoji{
+        position: absolute;
+        display: none;
+        left: 200px;
     }
 
-    #nav.active .hamburger::before{
-        transform: rotate(135deg);
+    
 
-    }
-
-    #nav.active .hamburger::after{
-        transform: rotate(-135deg);
-        top: -8px;
-        
-    }
-
-    #menu{
-       display:block;
-       position: absolute;
-       width: 100%;
-       top: 40px;
-       right: 0px;
-       padding-bottom: 10px;
-       height: 0px;
-       background-color: #000000b4;
-       
-       visibility: hidden;
-       overflow-y: hidden;
-       transition: .6s;
-    }
-
-    #nav.active #menu{
-        height: 20vh;
-        visibility: visible;
-        overflow-y: auto;
-    }
-
-    a:hover{
-        color: rgb(69, 143, 118);
-        transition: .5s;
-    }
-
-    #menu a{
-        padding: 1rem 0;
-        margin:  0 1rem;
-        border-bottom: 2px solid rgba(255, 255, 255, 0.301);
-    }
+   
 
     
 }

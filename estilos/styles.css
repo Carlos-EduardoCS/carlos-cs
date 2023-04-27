@@ -16,66 +16,184 @@ popins: font-family: 'Poppins', sans-serif;
 
 */
 
-*{
-    font-family: 'Poppins';
+   *{
+        font-family: 'Poppins';
+    }
+
+    body{
+        background-color: #181818;
+        background-image: url(../imagens/20230427_150217.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    /* header */
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover{
+        color: aquamarine;
+    }
+
+    #logo{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    #header{
+        box-sizing: border-box;
+        height: 65px;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #000000;
+    }
+
+    #menu{
+        display: flex;
+        list-style: none;
+        gap: .5rem;
+    }
+
+    #menu a {
+        display: block;
+        padding: .5rem;
+    }
+
+    #btn-mobile{
+        display: none;
+    }
+
+    /* fim header */
+
+
     
-}
 
-body{
-    background-color: #181818;
-    margin: 0px;
-    padding: 0px;
-}
+    #btn-mobile{
+        display:flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        color: white;
+        cursor: pointer;
+        gap: .5rem;
+    }
 
-a{
-    color: white;
-    text-decoration: none;
-}
+    .hamburger{
+        color: white;
+        width: 20px;
+        border-top: 2px solid;
+    }
 
-a:hover{
-    color: aquamarine;
-}
+    .hamburger::after, .hamburger::before{
+        display: block;
+        content: '';
+        width: 20px;
+        height: 2px;
+        margin-top: 7px;
+        background: currentColor;
+        transition: .4s;
+        position: relative;
+    }
 
-#logo{
-    font-size: 1.5rem;
-    font-weight: bold;
-}
+    #nav.active .hamburger{
+        transition: .2s;
+        border-top-color: transparent;
 
-#header{
-    box-sizing: border-box;
-    height: 65px;
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #000000;
-}
+    }
 
-#menu{
-    display: flex;
-    list-style: none;
-    gap: .5rem;
-}
+    #nav.active .hamburger::before{
+        transition: .5s;
+        transform: rotate(135deg);
 
-#menu a {
-    display: block;
-    padding: .5rem;
-}
+    }
 
-#btn-mobile{
-    display: none;
-}
+    #nav.active .hamburger::after{
+        transition: .5s;
+        transform: rotate(-135deg);
+        top: -9px;
+        
+    }
 
+    #menu{
+       display:block;
+       position: absolute;
+       width: 100%;
+       top: 40px;
+       right: 0px;
+       padding-bottom: 10px;
+       height: 0px;
+       background-color: #000000b4;
+       
+       visibility: hidden;
+       overflow-y: hidden;
+       transition: .6s;
+    }
 
-.apresen{
-    font-size: 1.4em;
-    position: absolute;
-    top: 250px;
-    left: 15px;
-    color: white;
-    display: block;
-}
+    #nav.active #menu{
+        height: 20vh;
+        visibility: visible;
+        overflow-y: auto;
+    }
 
-.cor{
-    color: aquamarine;
-}
+    a:hover{
+        color: rgb(69, 143, 118);
+        transition: .5s;
+    }
+
+    #menu a{
+        padding: 1rem 0;
+        margin:  0 1rem;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.301);
+    }
+    
+    /* ola */
+    .apresen{
+        font-size: 1.2em;
+        position: absolute;
+        top: 265px;
+        left: 15px;
+        color: white;
+        display: block;
+    }
+
+    .memoji{
+        display: none;
+    }
+
+    .cor{
+        color: aquamarine;
+        opacity: 100;
+        transition: 5s;
+    }
+
+    /* ola */
+
+    /* main */
+
+    h1{
+        margin-bottom: 0px;
+    }
+
+    .apr{
+        margin-top: -15px;
+    }
+
+    .carl{
+        position: absolute;
+        color: white;
+        background-color: #000000;
+        margin: auto;
+        top: 657px;
+        padding: 10px;
+
+    }
