@@ -18,9 +18,10 @@ popins: font-family: 'Poppins', sans-serif;
 
 *{
     font-family: 'Poppins';
+    
 }
 
-body, ul{
+body{
     background-color: #181818;
     margin: 0px;
     padding: 0px;
@@ -47,7 +48,7 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: linear-gradient(180deg, #00000057,  #18181800);
+    background-color: #000000;
 }
 
 #menu{
@@ -63,36 +64,6 @@ a:hover{
 
 #btn-mobile{
     display: none;
-
-}
-
-@media (max-width: 600px){
-    #btn-mobile{
-        display: block;
-    }
-
-    #menu{
-        display: block; 
-        position: absolute;
-        width: 100%;
-        top: 70px;
-        right: 0px;
-        background-color: #181818;
-        display: block;
-        height: cal(100vh-70px);
-        z-index: 1000;
-    }
-
-    #nav.active #menu{
-        display: block;
-    }
-    
-}
-
-menu a {
-    padding: 1rem 0;
-    margin: 0 1rem;
-    border-bottom: 2px solid aquamarine;
 }
 
 
