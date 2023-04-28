@@ -72,7 +72,7 @@ popins: font-family: 'Poppins', sans-serif;
         display: none;
     }
 
-    /* fim header */
+    
     #btn-mobile{
         display:flex;
         padding: .5rem 1rem;
@@ -151,6 +151,8 @@ popins: font-family: 'Poppins', sans-serif;
         margin:  0 1rem;
         border-bottom: 2px solid rgba(255, 255, 255, 0.301);
     }
+
+    /* fim header */
     
     /* ola */
     .apresen{
@@ -197,7 +199,45 @@ popins: font-family: 'Poppins', sans-serif;
     }
 
     /* pag contatos */
+
+    hr{
+        color: white;
+        width: 145px;
+        height: .5px;
+    }
+
+    .sub-con{
+        position: relative;
+    }
     .contatos{
+        position: absolute;
+        align-items: center;
+        margin: auto;
+        border-radius: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 25vh;
+        width: 70vw;
+        top: 320px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
         color: white;
         background-color: #0000008c;
+        margin: 5px;
+    }
+
+    .redes{
+        display: flex;
+        color: #fff;
+        align-items: center;
+        
+        justify-content: space-evenly;
+
+    
+    }
+
+    .ent{
+        margin-top: -4px;
+        font-size: 20px;
     }
