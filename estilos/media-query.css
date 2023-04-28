@@ -17,29 +17,27 @@ High-res laptop or desktop: 1920 x 1080
 /* desktops configs */
 @media (min-width: 721px){
     body{
-        background-image: url(../imagens/20230427_150013\ \(1\).jpg);
+        background-image: url(../imagens/20230428_105130.png);
     }
 
     #logo{
         align-items: center;
-        margin-left: 50%;
+        margin-left: 45%;
     }
 
     .apresen{
-        font-size: 1.4em;
+        font-size: 1.7em;
         position: absolute;
-        top: 300px;
-        left: 30px;
-        color: white;
+        top: 350px;
+        left: 50px;
+        color: #d1d1d1;
         display: block;
     }
 
-    .memoji{
-        position: absolute;
-        display: none;
-        left: 200px;
-    }
+    .apr{
+        color: #d1d1d1;
 
+    }
     
 
    

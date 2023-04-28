@@ -22,7 +22,7 @@ popins: font-family: 'Poppins', sans-serif;
 
     body{
         background-color: #181818;
-        background-image: url(../imagens/20230427_150217.jpg);
+        background-image: url(../imagens/20230428_105026.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -160,9 +160,9 @@ popins: font-family: 'Poppins', sans-serif;
     .apresen{
         font-size: 1.2em;
         position: absolute;
-        top: 265px;
+        top: 300px;
         left: 15px;
-        color: white;
+        color: #d1d1d1;
         display: block;
     }
 
@@ -171,9 +171,9 @@ popins: font-family: 'Poppins', sans-serif;
     }
 
     .cor{
-        color: aquamarine;
+        color: #fff;
         opacity: 100;
-        transition: 5s;
+        transition: 3s;
     }
 
     /* ola */
@@ -193,7 +193,9 @@ popins: font-family: 'Poppins', sans-serif;
         color: white;
         background-color: #000000;
         margin: auto;
-        top: 657px;
-        padding: 10px;
+        top: 780px;
+        padding-top: 2px;
+        padding-right: 10px;
+        padding-left: 10px;
 
     }
