@@ -20,10 +20,6 @@ High-res laptop or desktop: 1920 x 1080
         background-image: url(../imagens/20230428_105130.png);
     }
 
-    #logo{
-        align-items: center;
-        margin-left: 45%;
-    }
 
     .apresen{
         font-size: 1.7em;
@@ -37,6 +33,19 @@ High-res laptop or desktop: 1920 x 1080
     .apr{
         color: #d1d1d1;
 
+    }
+
+    .carl{
+        position: absolute;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        left: 20%;
+        top: 840px;
+        width: 980px;
+    }
+
+    .redes{
+        justify-content: none;
     }
     
 
