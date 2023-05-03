@@ -216,7 +216,7 @@ popins: font-family: 'Poppins', sans-serif;
         border-radius: 20px;
         padding-left: 10px;
         padding-right: 10px;
-        height: 50vh;
+        height: 30vh;
         width: 70vw;
         top: 320px;
         left: 50%;
@@ -241,4 +241,9 @@ popins: font-family: 'Poppins', sans-serif;
     .ent{
         margin-top: -4px;
         font-size: 20px;
+    }
+
+    .gmail{
+        font-weight: bold;
+
     }
