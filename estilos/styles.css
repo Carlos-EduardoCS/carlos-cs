@@ -121,18 +121,18 @@ popins: font-family: 'Poppins', sans-serif;
     }
 
     #menu{
-       display:block;
-       position: absolute;
-       width: 100%;
-       top: 40px;
-       right: 0px;
-       padding-bottom: 10px;
-       height: 0px;
-       background-color: #000000d0;
-       
-       visibility: hidden;
-       overflow-y: hidden;
-       transition: .6s;
+        display:block;
+        position: absolute;
+        width: 100%;
+        top: 40px;
+        right: 0px;
+        padding-bottom: 10px;
+        height: 0px;
+        background-color: #000000d0;
+        
+        visibility: hidden;
+        overflow-y: hidden;
+        transition: .6s;
     }
 
     #nav.active #menu{
@@ -273,11 +273,11 @@ popins: font-family: 'Poppins', sans-serif;
         margin-top: -3px;
     }
 
-   #amync{
+    #amync{
         color: #458f76;
-   }
+    }
 
-   #amync:hover{
+    #amync:hover{
         color: #3c7762;
         transition: .5s;
     }
