@@ -128,7 +128,7 @@ popins: font-family: 'Poppins', sans-serif;
        right: 0px;
        padding-bottom: 10px;
        height: 0px;
-       background-color: #000000b4;
+       background-color: #000000d0;
        
        visibility: hidden;
        overflow-y: hidden;
@@ -136,7 +136,7 @@ popins: font-family: 'Poppins', sans-serif;
     }
 
     #nav.active #menu{
-        height: 20vh;
+        height: 25vh;
         visibility: visible;
         overflow-y: auto;
     }
@@ -216,8 +216,8 @@ popins: font-family: 'Poppins', sans-serif;
         border-radius: 20px;
         padding-left: 10px;
         padding-right: 10px;
-        height: 30vh;
-        width: 70vw;
+        height: 40vh;
+        width: 80vw;
         top: 320px;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -245,5 +245,56 @@ popins: font-family: 'Poppins', sans-serif;
 
     .gmail{
         font-weight: bold;
+    }
 
+    .sobre{
+        color: #000000;
+        background-color: #ffffff;
+
+        margin-top: -11px;
+        padding-top: 11px;
+        padding-left: 10px;
+
+        font-size: 15px;
+    }
+
+    /* about */
+
+    .carlos{
+        font-size: 20px;
+    }
+
+    .mync5{
+        margin-bottom: 0px;
+    }
+
+    .vra{
+        font-size: small;
+        margin-top: -3px;
+    }
+
+   #amync{
+        color: #458f76;
+   }
+
+   #amync:hover{
+        color: #3c7762;
+        transition: .5s;
+    }
+
+    #amync2{
+        color: #458f76;
+    }
+
+    #amync2:hover{
+        color: #3c7762;
+        transition: .5s;
+    }
+
+    .fotabout{
+        background-color: rgb(0, 0, 0);
+        color: #fff;
+
+        margin-top: -17px;
+        padding: 10px;
     }

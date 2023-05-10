@@ -8,29 +8,29 @@
     <link rel="shortcut icon" href="imagens/PhotoRoom-20230425_095652.png" type="image/x-icon">
 
     <!-- styles -->
-    <link rel="stylesheet" href="estilos/styles.css">
-    <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <link rel="stylesheet" href="../estilos/media-query.css">
 
     <title>Carlos - Developer </title>
 </head>
 <body>
     <header id="header">
-        <a id="logo" href="index.html"> Carlos Developer </a>
+        <a id="logo" href="../index.html"> Carlos Developer </a>
         <nav id="nav">
            <button id="btn-mobile" aria-label="Abrir Menu" aria-haspopup="tru" aria-controls="menu" aria-expanded="">
             Menu
                 <span class="hamburger"></span>
            </button>
             <ul id="menu" role="menu">
-                <a href="index.html">
+                <a href="../index.html">
                     <li>Home</li>
                 </a>
 
-                <a href="html's/about.html">
+                <a href="#">
                     <li>Sobre</li>
                 </a>
 
-                <a href="html's/contatos.html">
+                <a href="../html's/contatos.html">
                     <li>Contatos</li>
                 </a>
 
@@ -44,35 +44,42 @@
             </ul>
         </nav>
     </header>
-
     <main>
-        <article>
-            <div class="apresen">
-                <h1>
-                     Olá, eu sou 
-                        <span class="cor">
-                            Carlos 
-                        </span>
-                </h1>
-                <p class="apr">
-                    e, eu sou <span class="cor">desenvolvedor. </span>
-                </p>
-            </div>
+        <div class="sobre">
+            <h1 class="carlos">
+                Mais sobre Carlos
+            </h1>
+            <h2 class="vra">
+                Aqui você sabera mais de mim e do seu futuro desenvolvedor. ;)
+            </h2>
+            <p class="mync1">
+                Olá meu nome é Carlos Eduadro tenho 17 anos, e o restante você ja sabe kkkkkkk, entâo vamos direto ao ponto.
+            </p>
 
-            <div class="carl">
-                <h1>
-                    Quem é Carlos?
-                </h1>
+            <p class="mync2">
+                Minha paixão pela programação veio depois que vi alguns amigos programando, e quis saber mais a respeito.
+                Então desde de Janeiro de 2023 estou me aprofundando mais e mais na programação.
+            </p>
+
+            <p class="mync3">
+                As linguagens de desenvolvimento e programação que uso são html css e javascript, e o restante vc pode ver em <a id="amync" href="#">Habilidades</a>
+                E com elas eu faço a maioria <br> dos meus Projetos.
+            </p>
+
+            <p class="mync4">
+                Bom, esse sou eu não sou de ficar contando história triste para conquistar meus clientes, gosto de mostrar que sou eficiente em qualquer tipo de trabalho que esteja ao meu alcance. <br>
+            </p>
+
+            <p class="mync5">
+                Ahhh, e se você ficou curioso(a) em ver meus projetos você pode clicar <a id="amync2" href="">aqui</a> que você sera redirecinado até eles, nos vemos la hein.
+            </p>
+        </div>
+        <footer class="fotabout">
                 <p>
-                    Olá meu nome é Carlos Eduardo, tenho 17 anos moro em uma cidade da capital paulista, chamda Campinas, outra grande cidade.
-                    Atualmente estou cursando eletroeletronica no colégio tecnico de campinas, COTUCA. 
-                    Este é meu primeiro portifólio como desenvolvedor web, e espero que possa demostrar a você leitor, todas as minhas habilidaes nas minhas linguagens de programação.
-                    Esta é uma breve aprensentação, caso queira saber mais a respeito de mim, vá até a opção "sobre", no menu.
+                    Você pode me acompanhar nas redes socias 
                 </p>
-            </div>
-        </article>
+        </footer>
     </main>
-</body>
     <script>
         const btnMobile = document.getElementById('btn-mobile');
 
@@ -92,4 +99,4 @@
         btnMobile.addEventListener('click', toggleMenu);
         btnMobile.addEventListener('touchstart', toggleMenu);
     </script>
-</html>
+</body>

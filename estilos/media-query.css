@@ -37,9 +37,8 @@ High-res laptop or desktop: 1920 x 1080
 
     .carl{
         position: absolute;
-
-        left: 20%;
-        top: 840px;
+        left: 5%;
+        top: 640px;
         width: 980px;
     }
 
@@ -47,8 +46,51 @@ High-res laptop or desktop: 1920 x 1080
         justify-content: none;
     }
     
-
-   
-
+    #nav.active #menu{
+        height: 45vh;
+        visibility: visible;
+        overflow-y: auto;
+    }
     
 }
+
+@media (min-width: 1024px) {
+    .carl{
+        position: absolute;
+        left: 2%;
+        top: 640px;
+        width: 980px;
+    }
+
+    .apresen{
+        font-size: 1.7em;
+        position: absolute;
+        top: 250px;
+        left: 50px;
+        color: #d1d1d1;
+        display: block;
+    }
+
+}
+    
+
+
+@media (min-width: 1280px) {
+    .carl{
+        position: absolute;
+        left: 2%;
+        top: 840px;
+        width: 980px;
+    }
+
+    .apresen{
+        font-size: 1.7em;
+        position: absolute;
+        top: 350px;
+        left: 50px;
+        color: #d1d1d1;
+        display: block;
+    }
+
+}
+
