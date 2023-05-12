@@ -26,12 +26,12 @@ High-res laptop or desktop: 1920 x 1080
         position: absolute;
         top: 350px;
         left: 50px;
-        color: #d1d1d1;
+        color: #fff;
         display: block;
     }
 
     .apr{
-        color: #d1d1d1;
+        color: #fff;
 
     }
 
@@ -67,9 +67,14 @@ High-res laptop or desktop: 1920 x 1080
         position: absolute;
         top: 250px;
         left: 50px;
-        color: #d1d1d1;
+        color: #fff;
         display: block;
     }
+
+    #pc-menu{
+        display: none;
+    }
+
 
 }
     
@@ -88,9 +93,21 @@ High-res laptop or desktop: 1920 x 1080
         position: absolute;
         top: 350px;
         left: 50px;
-        color: #d1d1d1;
+        color: #fff;
         display: block;
     }
 
-}
+
+    }
+
+    #nav.active #menu{
+        height: 30vh;
+        display: block;
+    }
+
+    .hamburger{
+        display: block;
+
+    }
+    
 

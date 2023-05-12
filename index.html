@@ -7,6 +7,9 @@
 
     <link rel="shortcut icon" href="imagens/PhotoRoom-20230425_095652.png" type="image/x-icon">
 
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
     <!-- styles -->
     <link rel="stylesheet" href="estilos/styles.css">
     <link rel="stylesheet" href="estilos/media-query.css">
@@ -17,32 +20,27 @@
     <header id="header">
         <a id="logo" href="index.html"> Carlos Developer </a>
         <nav id="nav">
-           <button id="btn-mobile" aria-label="Abrir Menu" aria-haspopup="tru" aria-controls="menu" aria-expanded="">
-            Menu
-                <span class="hamburger"></span>
-           </button>
+            <button id="btn-mobile" aria-label="Abrir Menu" aria-haspopup="tru" aria-controls="menu" aria-expanded="">
+            
+            <span class="hamburger"></span>
+            </button>
             <ul id="menu" role="menu">
                 <a href="index.html">
                     <li>Home</li>
-                </a>
-
-                <a href="html's/about.html">
-                    <li>Sobre</li>
-                </a>
-
-                <a href="html's/contatos.html">
-                    <li>Contatos</li>
                 </a>
 
                 <a href="#">
                     <li>Projetos</li>
                 </a>
 
-                <a href="#">
-                    <li>Habilidades</li>
+                <a href="html's/contatos.html">
+                    <li>Contatos</li>
                 </a>
+
+                
             </ul>
         </nav>
+
     </header>
 
     <main>
@@ -50,24 +48,31 @@
             <div class="apresen">
                 <h1>
                     Olá, eu sou 
-                        <span class="cor">
+                        <span class="cor2">
                             Carlos 
                         </span>
                 </h1>
                 <p class="apr">
                     e, eu sou <span class="cor">desenvolvedor.</span>
                 </p>
+                <div class="ling">
+                    <i class="fa-brands fa-html5 fa-lg" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-css3-alt fa-lg" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-square-js fa-lg" style="color: #ffffff;"></i>
+                </div>
             </div>
+
+            <img class="scroll" src="imagens/623e2172bac446468055fd0c_scroll-arrows-light.gif" alt="">
 
             <div class="carl">
                 <h1>
                     Quem é Carlos?
                 </h1>
                 <p>
-                    Olá meu nome é Carlos Eduardo, tenho 17 anos moro em uma cidade da capital paulista, chamda Campinas, outra grande cidade.
-                    Atualmente estou cursando eletroeletronica no colégio tecnico de campinas, COTUCA. 
-                    Este é meu primeiro portifólio como desenvolvedor web, e espero que possa demostrar a você leitor, todas as minhas habilidaes nas minhas linguagens de programação.
-                    Esta é uma breve aprensentação, caso queira saber mais a respeito de mim, vá até a opção "sobre", no menu.
+                    Olá meu nome é <span class="cor2">Carlos Eduardo</span>, tenho 17 anos moro em uma cidade da capital paulista, chamda <span class="cor2">Campinas</span>, outra grande cidade.
+                    Atualmente estou cursando eletroeletrônica no colégio tecnico de campinas, COTUCA. 
+                    Este é meu <span class="cor2">primeiro portifólio </span>como desenvolvedor web, e espero que possa demostrar a você leitor, todas as minhas habilidaes nas minhas linguagens de <span class="cor2">desenvolvimento e programação</span>.
+                    Esta é uma breve aprensentação, caso queira saber mais a respeito de mim, vá até a opção <span class="cor2"><a class="cor2" href="html's/projetos">"projetos"</a></span>, no menu.
                 </p>
             </div>
         </article>

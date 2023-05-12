@@ -68,6 +68,7 @@ popins: font-family: 'Poppins', sans-serif;
         padding: .5rem;
     }
 
+
     #btn-mobile{
         display: none;
     }
@@ -160,7 +161,7 @@ popins: font-family: 'Poppins', sans-serif;
         position: absolute;
         top: 300px;
         left: 15px;
-        color: #d1d1d1;
+        color: #fff;
         display: block;
     }
 
@@ -172,6 +173,18 @@ popins: font-family: 'Poppins', sans-serif;
         color: #fff;
         opacity: 100;
         transition: 3s;
+    }
+
+    .scroll{
+        align-items: center;
+        width: 50px;
+        height: 50px;
+    }
+
+    .ling{
+        margin-top: -15px;
+        margin-left: 5px;
+
     }
 
     /* ola */
@@ -195,6 +208,24 @@ popins: font-family: 'Poppins', sans-serif;
         padding-top: 2px;
         padding-right: 10px;
         padding-left: 10px;
+    }
+
+    .scroll{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 45.5%;
+        top: 650px;
+    }
+
+    .cor2{
+        transition: 1s;
+        color: rgb(20, 168, 119);
+    }
+
+    .cor2:hover{
+        text-decoration: underline;
+        color: rgb(12, 102, 72);
 
     }
 
@@ -256,45 +287,4 @@ popins: font-family: 'Poppins', sans-serif;
         padding-left: 10px;
 
         font-size: 15px;
-    }
-
-    /* about */
-
-    .carlos{
-        font-size: 20px;
-    }
-
-    .mync5{
-        margin-bottom: 0px;
-    }
-
-    .vra{
-        font-size: small;
-        margin-top: -3px;
-    }
-
-    #amync{
-        color: #458f76;
-    }
-
-    #amync:hover{
-        color: #3c7762;
-        transition: .5s;
-    }
-
-    #amync2{
-        color: #458f76;
-    }
-
-    #amync2:hover{
-        color: #3c7762;
-        transition: .5s;
-    }
-
-    .fotabout{
-        background-color: rgb(0, 0, 0);
-        color: #fff;
-
-        margin-top: -17px;
-        padding: 10px;
     }
