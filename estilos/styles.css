@@ -210,6 +210,7 @@ popins: font-family: 'Poppins', sans-serif;
         padding-left: 10px;
     }
 
+
     .scroll{
         position: absolute;
         width: 50px;
@@ -224,7 +225,7 @@ popins: font-family: 'Poppins', sans-serif;
     }
 
     .cor2:hover{
-        text-decoration: underline;
+        
         color: rgb(12, 102, 72);
 
     }
