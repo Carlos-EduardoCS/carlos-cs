@@ -23,9 +23,12 @@ popins: font-family: 'Poppins', sans-serif;
     body{
         background-color: #000000;
         background-image: url(../imagens/20230428_105026.png);
+
+        background-attachment: scroll;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+
         height: 100vh;
         margin: 0px;
         padding: 0px;
@@ -187,6 +190,10 @@ popins: font-family: 'Poppins', sans-serif;
 
     }
 
+    .memoji{
+        display: none;
+    }
+
     /* ola */
 
     /* main */
@@ -288,4 +295,9 @@ popins: font-family: 'Poppins', sans-serif;
         padding-left: 10px;
 
         font-size: 15px;
+    }
+
+    .project{
+        background-image: none;
+        background-color: #ffffff;
     }

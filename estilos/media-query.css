@@ -71,9 +71,6 @@ High-res laptop or desktop: 1920 x 1080
         display: block;
     }
 
-    #pc-menu{
-        display: none;
-    }
 
 
 }
@@ -83,21 +80,18 @@ High-res laptop or desktop: 1920 x 1080
 @media (min-width: 1280px) {
     .carl{
         position: absolute;
-        left: 2%;
-        top: 840px;
-        width: 980px;
+        left: 0%;
+        top: 700px;
+        width: 100vw;
     }
 
     .apresen{
         font-size: 1.7em;
         position: absolute;
-        top: 350px;
+        top: 255px;
         left: 50px;
         color: #fff;
         display: block;
-    }
-
-
     }
 
     #nav.active #menu{
@@ -109,5 +103,21 @@ High-res laptop or desktop: 1920 x 1080
         display: block;
 
     }
-    
+
+    /* .memoji{
+        position: absolute;
+        display: block;
+
+        left: 670px;
+        top: -142px;
+    } */
+
+    .scroll{
+        height: 75px;
+        width: 70px;
+        position: absolute;
+        top: 540px;
+        left: 50%;
+    }
+}    
 
