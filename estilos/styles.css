@@ -296,7 +296,4 @@ popins: font-family: 'Poppins', sans-serif;
         font-size: 15px;
     }
 
-    .project{
-        background-image: none;
-        background-color: #ffffff;
-    }
+    .project{ 
