@@ -11,91 +11,66 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 
     <!-- styles -->
-    <link rel="stylesheet" href="estilos/styles.css">
-    <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="stylesheet" href="styles/style.css">
 
-    <title>Carlos - Developer </title>
+    <title> Know Carlos </title>
 </head>
 <body>
-    <header id="header">
-        <a id="logo" href="index.html"> Carlos Developer </a>
-        <nav id="nav">
-            <button id="btn-mobile" aria-label="Abrir Menu" aria-haspopup="tru" aria-controls="menu" aria-expanded="">
-            
-            <span class="hamburger"></span>
-            </button>
-            <ul id="menu" role="menu">
-                <a href="index.html">
-                    <li>Home</li>
-                </a>
-
-                <a href="projetos.html">
-                    <li>Projetos</li>
-                </a>
-
-                <a href="html's/contatos.html">
-                    <li>Contatos</li>
-                </a>
-            </ul>
-        </nav>
-
+    <header>
+        <h1>Carlos</h1>
     </header>
-
     <main>
-        <article>
-            <div class="apresen">
+        <article>   
+            <div class="start">
                 <h1>
-                    Olá, eu sou 
-                        <span class="cor2">
-                            Carlos 
-                        </span>
-                </h1>
-                <p class="apr">
-                    e, eu sou <span class="cor">desenvolvedor.</span>
-                </p>
-
-              <!--  <img class="memoji" src="imagens/a679bdee-3804-4d5f-9d26-371b37834f6f.png" alt=""> -->
-
-                <div class="ling">
-                    <i class="fa-brands fa-html5 fa-lg" style="color: #ffffff;"></i>
-                    <i class="fa-brands fa-css3-alt fa-lg" style="color: #ffffff;"></i>
-                    <i class="fa-brands fa-square-js fa-lg" style="color: #ffffff;"></i>
-                </div>
-            </div>
-
-            <img class="scroll" src="imagens/Scroll-Down-white.gif">
-
-            <div class="carl">
-                <h1>
-                    Quem é Carlos?
+                    Olá meu nome é <strong>Carlos</strong> 
                 </h1>
                 <p>
-                    Olá meu nome é <span class="cor2">Carlos Eduardo</span>, tenho 17 anos moro em uma cidade da capital paulista, chamda <span class="cor2">Campinas</span>, outra grande cidade.
-                    Atualmente estou cursando eletroeletrônica no colégio tecnico de campinas, COTUCA. 
-                    Este é meu <span class="cor2">primeiro portifólio </span>como desenvolvedor web, e espero que possa demostrar a você leitor, todas as minhas habilidaes nas minhas linguagens de <span class="cor2">desenvolvimento e programação</span>.
-                    Esta é uma breve aprensentação, caso queira saber mais a respeito de mim, vá até a opção <span class="cor2"><a class="cor2" href="html's/projetos">"projetos"</a></span>, no menu.
+                    e eu sou <strong>desenvolvedor</strong>.
                 </p>
+
+                <div class="languages">
+                    <!-- html -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" viewBox="0 0 384 512"><style>svg{fill:#ffffff}</style><path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/></svg>
+
+                    <!-- css -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" viewBox="0 0 384 512">
+                    <style>svg{fill:#ffffff}</style><path d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"/></svg>
+
+                    <!-- javascript -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" viewBox="0 0 448 512">
+                    <style>svg{fill:#ffffff}</style>
+                    <path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM243.8 381.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"/>
+                    </svg>
+
+                    <!-- boot -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30px" viewBox="0 0 576 512">
+                    <style>svg{fill:#ffffff}</style><path d="M333.5,201.4c0-22.1-15.6-34.3-43-34.3h-50.4v71.2h42.5C315.4,238.2,333.5,225,333.5,201.4z M517,188.6 c-9.5-30.9-10.9-68.8-9.8-98.1c1.1-30.5-22.7-58.5-54.7-58.5H123.7c-32.1,0-55.8,28.1-54.7,58.5c1,29.3-0.3,67.2-9.8,98.1 c-9.6,31-25.7,50.6-52.2,53.1v28.5c26.4,2.5,42.6,22.1,52.2,53.1c9.5,30.9,10.9,68.8,9.8,98.1c-1.1,30.5,22.7,58.5,54.7,58.5h328.7 c32.1,0,55.8-28.1,54.7-58.5c-1-29.3,0.3-67.2,9.8-98.1c9.6-31,25.7-50.6,52.1-53.1v-28.5C542.7,239.2,526.5,219.6,517,188.6z M300.2,375.1h-97.9V136.8h97.4c43.3,0,71.7,23.4,71.7,59.4c0,25.3-19.1,47.9-43.5,51.8v1.3c33.2,3.6,55.5,26.6,55.5,58.3 C383.4,349.7,352.1,375.1,300.2,375.1z M290.2,266.4h-50.1v78.4h52.3c34.2,0,52.3-13.7,52.3-39.5 C344.7,279.6,326.1,266.4,290.2,266.4z"/>
+                    </svg>
+                </div>
+
+                <div class="scroll-down">
+                    <p class="p-scroll-down">Scroll Down</p>
+                    <img class="scroll" src="imagens/Scroll-Down-white.gif" alt="">
+                </div>
             </div>
         </article>
-    </main>
+        <article id="article-2">
+            <div class="carlos">
+                <h1>
+                    Carlos Eduardo:
+                </h1>
+                <p>
+                    Sou Brasileiro e moro na cidade de Sumaré em São Paulo capital, tenho 17 anos, e sou Dev-Jr.
+
+                    Atualmente estou cursando Eletroeletrônica no COTUCA - Colégio Técnico de Campinas. 
+                    
+                    Minha paixão pela programação veio depois que vi alguns amigos programando, e quis saber mais a respeito.
+                    Então desde de Janeiro estou me aprofundando mais e mais na programação.</p>
+
+            </div>
+        </article>
+    </main> 
 </body>
-    <script>
-        const btnMobile = document.getElementById('btn-mobile');
-
-        function toggleMenu(event){
-            if (event.type == 'touchstart') event.preventDefault();
-            const nav = document.getElementById('nav');
-            nav.classList.toggle('active');
-            const active = nav.classList.contains('active')
-            event.currentTarget.setAttribute('aria-expanded', active);
-            if (active) {
-            event.currentTarget.setAttribute('aria-label', 'fechar menu');
-            } else {
-                event.currentTarget.setAttribute('aria-label', 'abrir menu menu');
-            }
-        }
-
-        btnMobile.addEventListener('click', toggleMenu);
-        btnMobile.addEventListener('touchstart', toggleMenu);
-    </script>
+    <script src="js/script.js"></script>
 </html>
