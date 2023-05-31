@@ -31,9 +31,9 @@ body{
 
 
 header{
+    background-image: linear-gradient(180deg, #3d089317,#00000000);
     font-weight: bold;
-    text-align: center;
-    background-color: #000000;
+    text-align: start;
     color: #fff;
     padding: 20px;
     width: 100vw;
@@ -42,6 +42,7 @@ header{
 header > h1{
     font-size: 1.5rem;
     font-family: CopperBits, Arial, Helvetica, sans-serif;
+    animation: carlos-animation 2s ease-in;
 }
 
 h1 {
@@ -51,7 +52,7 @@ h1 {
 strong{
     font-weight: 650;
     font-family: 'Minecraft';
-    color: rgb(104, 33, 172);
+    color: rgb(226, 226, 12);
 }
 
 
@@ -64,11 +65,9 @@ strong{
 }
 
 .scroll-down{
-    margin-left: 30%;
-    margin-top: 75%;
+    margin-left: 27%;
+    margin-top: 40%;
     text-align: center;
-    top: 82%;
-    left: 35%;
     width: 150px;
 }
 
@@ -78,22 +77,57 @@ strong{
 }
 
 .p-scroll-down{
-    animation: p-scroll-animation 1.60s infinite ease-in-out ;
+    animation: p-scroll-animation 1.65s infinite ease-in-out ;
 }
 
 .languages{
     margin-top: 10px;
 }
 
+
+.carlos-h1{
+    color: lightskyblue;
+}
+
+.eduardo{
+    color: yellow;
+}
+
 .carlos{
+    color: lightskyblue;
+    width: 100vw;
+    font-size: 12px;
     padding: 20px;
     margin-top: 10%;
     color: #fff;
     background-color: rgb(0, 0, 0);
 }
 
+.carlos > h1 {
+    color: yellow;
+    margin-bottom: 10px;
+}
+
+.projetos{
+    background-color: #fff;
+}
+
+.ondas{
+    position: absolute;
+}
+
 
 @keyframes p-scroll-animation {
+    0%{
+        opacity: 0%;
+    }
+
+    100%{
+        opacity: 100%;
+    }
+}
+
+@keyframes carlos-animation {
     0%{
         opacity: 0%;
     }
