@@ -66,7 +66,7 @@ strong{
     font-size: 1.1rem;
     color: #ffffff;
     font: 600;
-    margin-top: 65%;
+    margin-top: 25vh;
 }
 
 .in-start{
@@ -94,7 +94,7 @@ strong{
 
 
 .carlos-h1{
-    color: lightskyblue;
+    color: #87cefa;
 }
 
 .eduardo{
@@ -102,20 +102,21 @@ strong{
 }
 
 .carlos{
-    margin: 15% auto 15% auto;
+    margin: 15% auto 10% auto;
     width: 75vw;
     font-size: 12px;
     padding: 20px;
     color: #000000;
     background-color: rgb(228, 219, 219);
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.437);
-    border-radius: 20px;
+    border-radius: 51px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  21px 21px 36px #bebebe6b,-21px -21px 36px #ffffff72;
 }
+
 
 .sub-carlos{
     margin-top: 30px ;
     padding: 15px;
-    height: vh;
     position: relative;
     background: lightskyblue;
 }
@@ -123,6 +124,11 @@ strong{
 .carlos > h1 {
     color: rgb(0, 0, 0);
     margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.carlos > p {
+    color: rgb(33, 33, 33);
 }
 
 .carlos-p{
@@ -136,8 +142,59 @@ strong{
     margin-bottom: -50px;
 }
 
+.curve2{
+    margin-top: -10px;
+    margin-bottom: -69px;
+}
+
 .cor1{
+    text-transform: uppercase;
+    font-weight: bolder;
     color: yellow;
+}
+
+.sub-projetos{
+    margin-top: -10px;
+    padding: 15px;
+    background: rgb(81, 125, 151);   
+}
+
+.projetos-h1{
+    font-size: 1.5rem;
+    font-family: CopperBits;
+    color: yellow;
+}
+
+.in-projetos{
+    margin: 20% auto;
+    width: 80vw;
+    font-size: 12px;
+    padding: 20px;
+    color: #000000;
+    border-radius: 51px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  21px 21px 36px #bebebe69,
+    -21px -21px 36px #ffffff5a;
+}
+
+.a-games > h1{
+    font-family: 'Minecraft';
+    margin-bottom: 10px;
+    color: yellow;
+
+}
+
+.a-games{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.mario-jump{
+    width: 152px;
+}
+
+.in-projetos > p{
+    margin-top: 10px;
 }
 
 
