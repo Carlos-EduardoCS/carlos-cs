@@ -29,22 +29,6 @@ body{
     
 }
 
-
-header{
-    background-image: linear-gradient(180deg, #3d089317,#00000000);
-    font-weight: bold;
-    text-align: start;
-    color: #fff;
-    padding: 20px;
-    width: 100vw;
-}
-
-header > h1{
-    font-size: 1.5rem;
-    font-family: CopperBits, Arial, Helvetica, sans-serif;
-    animation: carlos-animation 2s ease-in;
-}
-
 h1 {
     font-size: 1rem;
     margin-bottom: -5px;
@@ -61,16 +45,28 @@ strong{
 
 }
 
+span{
+    font-weight: bolder;
+    font-size: 14px;
+}
+
 
 .start{
     font-size: 1.1rem;
     color: #ffffff;
-    font: 600;
-    margin-top: 25vh;
+    font: 700;
+    margin-top: 36.7vh;
+    
 }
 
 .in-start{
     margin-left: 25px;
+    animation: carlos-animation 3s ease-in;
+}
+
+.carlos-p{
+    margin: -15px 0px;
+    font-size: 2.5rem;
 }
 
 .scroll-down{
@@ -92,110 +88,35 @@ strong{
     margin-top: 10px;
 }
 
-
-.carlos-h1{
-    color: #87cefa;
-}
-
-.eduardo{
-    color: yellow;
-}
-
-.carlos{
-    margin: 15% auto 10% auto;
-    width: 75vw;
-    font-size: 12px;
-    padding: 20px;
-    color: #000000;
-    background-color: rgb(228, 219, 219);
-    border-radius: 51px;
-    background: linear-gradient(145deg, #cacaca, #f0f0f0);
-    box-shadow:  21px 21px 36px #bebebe6b,-21px -21px 36px #ffffff72;
-}
-
-
-.sub-carlos{
-    margin-top: 30px ;
-    padding: 15px;
-    position: relative;
-    background: lightskyblue;
-}
-
-.carlos > h1 {
-    color: rgb(0, 0, 0);
-    margin-bottom: 10px;
-    font-weight: bold;
-}
-
-.carlos > p {
-    color: rgb(33, 33, 33);
-}
-
-.carlos-p{
-    margin-top: -10px;
-    margin-bottom: -11px;
-    font-size: 2.7rem;
-}
-
 .curve1{
-    margin-left: -50px;
-    margin-bottom: -50px;
+    margin-top: 30%;
+    margin-bottom: -10px;
 }
 
-.curve2{
-    margin-top: -10px;
-    margin-bottom: -69px;
+#article-2 {
+
+    padding: 50px;
+    background: rgb(119,119,119);
+    background: linear-gradient(0deg, rgba(119,119,119,1) 0%, rgba(33,33,33,1) 77%);
 }
 
-.cor1{
-    text-transform: uppercase;
-    font-weight: bolder;
-    color: yellow;
-}
-
-.sub-projetos{
-    margin-top: -10px;
-    padding: 15px;
-    background: rgb(81, 125, 151);   
-}
-
-.projetos-h1{
-    font-size: 1.5rem;
-    font-family: CopperBits;
-    color: yellow;
-}
-
-.in-projetos{
-    margin: 20% auto;
-    width: 80vw;
-    font-size: 12px;
+.card {
+    margin: 50px auto;
     padding: 20px;
-    color: #000000;
-    border-radius: 51px;
-    background: linear-gradient(145deg, #cacaca, #f0f0f0);
-    box-shadow:  21px 21px 36px #bebebe69,
-    -21px -21px 36px #ffffff5a;
+    width: 280px;
+    height: 290px;
+    border-radius: 30px;
+    background: #212121;
+    box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.705),-15px -15px 30px rgba(60, 60, 60, 0.63);
 }
 
-.a-games > h1{
-    font-family: 'Minecraft';
-    margin-bottom: 10px;
-    color: yellow;
-
+.card > p{
+    letter-spacing: .5px;
+    color: #FFF;
+    font-size: 12px;
+    margin-bottom: 5px;
 }
 
-.a-games{
-    margin-top: 25px;
-    text-align: center;
-}
-
-.mario-jump{
-    width: 152px;
-}
-
-.in-projetos > p{
-    margin-top: 10px;
-}
 
 
 @keyframes p-scroll-animation {
