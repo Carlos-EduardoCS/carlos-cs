@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+/*992*/
+@media screen and (min-width: 992px){
+    body{
+        background-image: url(imagens/full-w.gif);
+    }
+
+    .intro{
+        background: rgba(168, 168, 168, 0.535);
+        border-radius: 20px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.344);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.02);
+        text-align: center;
+        display: block;
+        padding: 30px;
+        width: 700px;
+        margin: 15% auto 0px auto;
+    }
+
+    .intro > p {
+        margin-bottom: 30px;
+    }
+}

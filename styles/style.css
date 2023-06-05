@@ -1,12 +1,112 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 @font-face {
-    font-family: CopperBits;
-    src: url(../fonts/CooperBits.ttf);
+    font-family: 'Cocogoose';
+    src: url(../fonts/Cocogoose\ Pro-trial.ttf);
 }
 
 @font-face {
-    font-family: 'Minecraft';
-    src: url(../fonts/Minecraft.ttf);
+    font-family: 'MADEINFINITY';
+    src: url(../fonts/MADEINFINITY\ PERSONALUSE-Medium.otf);
 }
+
+@font-face {
+    font-family: 'coolvetica' ;
+    src: url(../fonts/coolvetica\ rg.otf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-bottom: -6.5px;
+}
+
+cor{
+    color: blueviolet;
+}
+
+body{
+    background-image: url(../imagens/th9ywto01r471.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    
+
+.intro{
+    text-align: center;
+    display: block;
+    padding: 20px;
+    width: 370px;
+    margin: 90% auto 0px auto;
+}
+
+.intro > h1 , p {
+    font-family: coolvetica;
+    letter-spacing: 1px;
+    font-size: 1.9rem;
+    color: #FFF;
+}
+
+
+.scroll{
+    width: 100px;
+    margin-top: 100px;
+}
+
+.glass{
+    color: transparent;
+    background: rgba(137, 43, 226, 0.284);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.02);
+}
+
+.button {
+    margin-top: 20px;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: .5px;
+    transition: all 1000ms;
+    text-transform: uppercase;
+    color: blueviolet;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid blueviolet;
+}
+
+button:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    outline: 2px solid rgba(154, 48, 253, 0.888);
+    box-shadow: 4px 5px 17px -4px rgba(0, 0, 0, 0.316);
+}
+
+button::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: blueviolet;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+}
+
+button:hover::before {
+    width: 250%;
+}
+
+
+
+
