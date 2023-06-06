@@ -1,42 +1,223 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Benzo';
+    src: url(../fonts/Benzo.woff);
+}
+
 :root {
     --secondary-color: rgb(138, 138, 138);
-    --contrast-color: rgba(47, 47, 47, 0.286);;
+    --contrast-color: rgb(47, 47, 47);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body{
-    background-image: url(../imagens/Animated\ Shape.svg);
+    scroll-behavior: smooth;
+    background-color: rgb(47, 47, 47);
 }
 
-ul{
-    margin-left: -25px;
+header{
+    text-align: center;
+    color: #Ffff;
+    position: sticky;
+    padding: 15px;
+    background-color: #000000;
+}
+
+
+hr{
+    margin: 20px 0;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+a{
+    text-decoration: none;
+    color: #828080;
+}
+
+strong{
+    text-transform: uppercase;
+    color: rgb(0, 110, 255);
+    
 }
 
 li{
     list-style-type: none;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 13px;
+}
+
+.memoji{
+    width: 50px;
 }
 
 .apresentacao{
-    padding: 10px;
-    background-color: var(--contrast-color);
+    margin-left: 0 auto;
+    font-size: 15px;
+    padding: 20px;
     color: #Ffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.apresentacao > h1 {
+    text-align: center;
+    animation: vamos-comecar-ani 3s ease-in-out;
 }
 
 .apresentacao > p{
+    margin-bottom: 10px;
     font-size: 12px;
 }
 
 .projetos{
+    text-align: center;
     padding: 10px;
-    background-color: var(--contrast-color);
     color: #Ffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.mario-game{
-    width: 150px;
+.projetos > h1 {
+    animation: vamos-comecar-ani 3s ease-in-out;
+    text-align: center;
+    margin-bottom: 10px;
 }
+
+.titulo{
+    color: rgb(0, 110, 255);
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+.mario-game, .huddle, .relogio, .pokemon, .calculadora {
+    margin-top: 5px;
+    animation: mario-game-ani 2.5s ease-in;
+    width: 250px;
+}
+
+.skills{
+    background-color: rgb(47, 47, 47);
+}
+
+.header2{
+    text-align: center;
+    border-radius: 12px 12px 0px 0px ;
+}
+
+header > p {
+    color: #Ffff;
+}
+
+.skills-box{
+    border-radius: 12px;
+    width: 85vw;
+    height: vh;
+    padding: 0px ;
+    margin: 0 auto;
+    background-color: #828080;
+}
+
+.skills-box > ul > li{
+    margin-top: 10px;
+    margin-left: 5px;
+    color: rgb(238, 238, 238);
+    border-bottom: 1px solid black;
+}
+
+
+li > hr {
+    padding: 0;
+    height: 3px;
+    width: 20px;
+    margin-top: -10px;
+    margin-left: 75px;
+    background-color: rgb(0, 0, 0);
+}
+
+.html{
+    width: 107px;
+    animation: html-ani 1.5s ;
+}
+
+.css{
+    width: 95px;
+    animation: css-ani 1.5s ;
+}
+
+.js{
+    width: 85px;
+    animation: js-ani 1.5s ;
+}
+
+.boot{
+    width: 50px;
+    animation: boot-ani 1.5s ;
+}
+
+@keyframes html-ani {
+    0%{
+        width: 0px;
+    }
+
+    100%{
+        width: 107px;
+    }
+}
+
+@keyframes css-ani {
+    0%{
+        width: 0px;
+    }
+
+    100%{
+        width: 95px;
+    }
+}
+
+@keyframes js-ani {
+    0%{
+        width: 0px;
+    }
+
+    100%{
+        width: 85px;
+    }
+}
+
+@keyframes boot-ani {
+    0%{
+        width: 0px;
+    }
+
+    100%{
+        width: 50px;
+    }
+}
+
+@keyframes vamos-comecar-ani {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100;
+    }
+}
+
+@keyframes mario-game-ani {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100;
+    }
+}
+
+
