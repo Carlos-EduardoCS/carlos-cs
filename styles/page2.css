@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+:root {
+    --secondary-color: rgb(138, 138, 138);
+    --contrast-color: rgba(47, 47, 47, 0.286);;
+}
+
+body{
+    background-image: url(../imagens/Animated\ Shape.svg);
+}
+
+ul{
+    margin-left: -25px;
+}
+
+li{
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.apresentacao{
+    padding: 10px;
+    background-color: var(--contrast-color);
+    color: #Ffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.apresentacao > p{
+    font-size: 12px;
+}
+
+.projetos{
+    padding: 10px;
+    background-color: var(--contrast-color);
+    color: #Ffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mario-game{
+    width: 150px;
+}
