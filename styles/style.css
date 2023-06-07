@@ -21,6 +21,18 @@
     box-sizing: border-box;
 }
 
+header{
+    text-align: center;
+    color: #Ffff;
+    position: sticky;
+    padding: 10px;
+    background-color: #000000;
+}
+
+.memoji{
+    width: 45px;
+}
+
 h1{
     margin-bottom: -6.5px;
 }
