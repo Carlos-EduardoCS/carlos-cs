@@ -4,25 +4,71 @@
 /* -pc- 992*/
 @media screen and (min-width: 992px){
     body{
-        background-image: url(imagens/Animated\ Shape\ \(1\).svg);
+        background-image: url(imagens/defalt-bg.svg);
         background-color: var(--contrast-color);
     }
 
+    .container{
+        gap: 50px;
+        justify-content: space-around;
+        display: flex;
+    }
+
+    .carlos{
+        margin-top: 90px;
+        margin-left: 40vw;
+        width: 400px;
+        display: block;
+        animation: carlos-ani 1.5s ease-in-out;
+    }
+
     .intro{
-        padding: 35px;
-        text-align: center;
-        height: 200px;
+        position: absolute;
+        top: -700px;
+        left: 25px;
         font-family:'coolvetica';
-        margin: 15% auto;
-        font-size: 15px;
+        font-size: 22px;
         letter-spacing: .7px;
         color:rgb(138, 138, 138);
         width: 450px;
-        background: rgba(44, 44, 44, 0.576);
-        box-shadow: 0 0 10px rgba(0,0,0,0.25);
-        border-radius: 15px;
     }
 
+    .blob1{
+        position: absolute;
+        display: block;
+        top: 5%;
+        left: 52%;
+        width: 100px;
+        animation: carlos-ani 3.5s ease-in-out;
+    }
+
+    .blob2{
+        margin-left: 52%;
+        margin-top: -5%;
+        width: 150px;
+        display: block;
+        animation: carlos-ani 6.5s ease-in-out;
+    }
+
+    .blob3{
+        margin-left: 95%;
+        margin-top: -35%;
+        display: block;
+        width: 150px;
+        animation: carlos-ani 7s ease-in-out;
+    }
+
+    .intro > h1 {
+        font-size: 2rem;
+    }
+
+    .intro > p{
+        font-size: 1rem;
+    }
+
+    button{
+        margin-left: -2px;
+    }
     :root {
         --secondary-color: rgb(138, 138, 138);
         --contrast-color: rgba(44, 44, 44, 0.576);;
@@ -30,4 +76,14 @@
 
 
 
+}
+
+@keyframes carlos-ani {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100;
+    }
 }

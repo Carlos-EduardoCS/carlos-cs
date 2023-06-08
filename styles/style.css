@@ -21,17 +21,6 @@
     box-sizing: border-box;
 }
 
-header{
-    text-align: center;
-    color: #Ffff;
-    position: sticky;
-    padding: 10px;
-    background-color: #000000;
-}
-
-.memoji{
-    width: 45px;
-}
 
 h1{
     margin-bottom: -6.5px;
@@ -39,135 +28,116 @@ h1{
 
 
 body{
-    background-image: url(../imagens/Animated\ Shape.svg);
+    background-image: url(../imagens/9.16-B.svg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-main{
-    text-align: center;
-}
 
 strong{
-    text-decoration: underline;
     color:rgb(255, 255, 255);
 }
 .intro{
+    margin-top: 70%;
     padding: 15px;
-    text-align: center;
-    height: 150px;
     font-family:'coolvetica';
-    margin: 75% auto;
-    font-size: 15px;
     letter-spacing: .7px;
     color:rgb(138, 138, 138);
     width: 350px;
-    background: rgba(44, 44, 44, 0.576);
-    box-shadow: 0 0 10px rgba(0,0,0,0.25);
-    border-radius: 15px;
+    animation: intro-ani 2s ease-in;
+}
+
+
+.blob1, .blob2, .blob3{
+    display: none;
+}
+
+.carlos{
+    display: none;
 }
 
 .intro > p{
+    margin-bottom: 5px;
     margin-top: 5px;
 }
 
-.intro:hover{
-    background: rgba(36, 36, 36, 0.576);
-    box-shadow: 2 2 10px rgba(0,0,0,0.25);
-    transition: 1s;
-    transform: scale(1.05);
-}
-
-button {
-    margin-top: 12px;
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    outline: none;
-    border: 0;
-    vertical-align: middle;
+.c-button {
+    margin-top: 25px;
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
     text-decoration: none;
-    background: transparent;
-    padding: 0;
-    font-size: inherit;
-    font-family: inherit;
-}
-
-button.learn-more {
-    width: 12rem;
-    height: auto;
-}
-
-button.learn-more .circle {
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    padding: 0.9em 1.6em;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
     position: relative;
-    display: block;
-    margin: 0;
-    width: 3rem;
-    height: 3rem;
-    background: #282936;
-    border-radius: 1.625rem;
+    z-index: 1;
 }
 
-button.learn-more .circle .icon {
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    background: #fff;
+.c-button--gooey {
+    color: #004197;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 4px solid #006EFF;
+    border-radius: 0;
+    position: relative;
+    transition: all 700ms ease;
 }
 
-button.learn-more .circle .icon.arrow {
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    left: 0.625rem;
-    width: 1.125rem;
-    height: 0.125rem;
-    background: none;
-}
-
-button.learn-more .circle .icon.arrow::before {
-    position: absolute;
-    content: "";
-    top: -0.29rem;
-    right: 0.0625rem;
-    width: 0.625rem;
-    height: 0.625rem;
-    border-top: 0.125rem solid #fff;
-    border-right: 0.125rem solid #fff;
-    transform: rotate(45deg);
-}
-
-button.learn-more .button-text {
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+.c-button--gooey .c-button__blobs {
+    height: 100%;
+    filter: url(#goo);
+    overflow: hidden;
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 0.75rem 0;
-    margin: 0 0 0 1.85rem;
-    color: #ffffff;
-    font-weight: 500;
-    line-height: 1.6;
-    text-align: center;
-    text-transform: uppercase;
+    bottom: -3px;
+    right: -1px;
+    z-index: -1;
 }
 
-button:hover .circle {
-    width: 100%;
+.c-button--gooey .c-button__blobs div {
+    background-color: #006EFF;
+    width: 34%;
+    height: 100%;
+    border-radius: 100%;
+    position: absolute;
+    transform: scale(1.4) translateY(125%) translateZ(0);
+    transition: all 700ms ease;
 }
 
-button:hover .circle .icon.arrow {
-    background: #fff;
-    transform: translate(1rem, 0);
+.c-button--gooey .c-button__blobs div:nth-child(1) {
+    left: -5%;
 }
 
-button:hover .button-text {
+.c-button--gooey .c-button__blobs div:nth-child(2) {
+    left: 30%;
+    transition-delay: 60ms;
+}
+
+.c-button--gooey .c-button__blobs div:nth-child(3) {
+    left: 66%;
+    transition-delay: 25ms;
+    }
+
+.c-button--gooey:hover {
     color: #fff;
 }
 
+.c-button--gooey:hover .c-button__blobs div {
+    transform: scale(1.4) translateY(0) translateZ(0);
+}
 
+@keyframes intro-ani {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100;
+    }
+}
 
 
 
