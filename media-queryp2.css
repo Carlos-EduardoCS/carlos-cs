@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px){
+    html, button{
+        scroll-behavior: smooth;
+    }
+
+    #start{
+        display: block;
+    }
+    
+    .apresentacao{
+        gap: 20vw;
+        display: flex;
+        height: 100vh;
+        padding: 50px;
+    }
+
+    .in-apresentacao{
+        margin-top: 7%;
+    }
+
+    .in-apresentacao > h1  {
+        text-align: start;
+    }
+    .in-apresentacao > p{
+        width: 470px;
+        margin-bottom: -1px;
+    }
+
+    .carlos2{
+        width: 450px;
+        height: 450px;
+        display: block;
+    }
+
+    .blob5{
+        top: 20%;
+        left: 45%;
+        position: absolute;
+        display: block;
+        width: 75px;
+    }
+
+    
+    .blob6{
+        margin-top: 10px;
+        display: block;
+        position: absolute;
+        width: 175px;
+    }
+
+    .blob7{
+        width: 95px;
+        display: block;
+        position: absolute;
+        top: 80%;
+        left: 88%;
+    }
+
+    .projetos{
+        margin-left: -20px;
+    }
+
+    .in-projetos{
+        margin-left: -10px;
+        display: flex;
+        gap: 20px;
+        
+    }
+
+    .in-projetos2{
+        gap: 20px;
+        display: inline-flex;
+    }
+
+}

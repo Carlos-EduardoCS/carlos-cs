@@ -19,7 +19,8 @@
 
 body{
     scroll-behavior: smooth;
-    background-color: rgb(47, 47, 47);
+    background-image: url(../imagens/9.16-B.svg);
+    background-attachment: fixed;
 }
 
 header{
@@ -40,13 +41,20 @@ hr{
 
 a{
     text-decoration: none;
-    color: #828080;
+    color: #000000;
 }
 
 strong{
     text-transform: uppercase;
-    color: rgb(0, 110, 255);
+    color: #006EFF;
     
+}
+.strong2{
+    color: #Fff;
+}
+
+.blob5, .blob6, .blob7{
+    display: none;
 }
 
 li{
@@ -59,18 +67,27 @@ li{
     width: 50px;
 }
 
+.carlos2{
+    display: none;
+}
+
 .memoji:hover{
     transform: scale(1.10);
 }
 
 .apresentacao{
+    background-color: #000000;
     margin-left: 0 auto;
     font-size: 15px;
     padding: 20px;
     color: #Ffff;
 }
 
-.apresentacao > h1 {
+.btn{
+    display: none;
+}
+
+.in-apresentacao > h1 {
     text-align: center;
     animation: vamos-comecar-ani 3s ease-in-out;
 }
@@ -78,14 +95,17 @@ li{
 .apresentacao > p{
     margin-bottom: 10px;
     font-size: 12px;
+    animation: vamos-comecar-ani 3s ease-in;
 }
 
 .projetos{
+    background-color: #006EFF;
     text-align: center;
-    padding: 10px;
+    padding: 50px;
     color: #Ffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 .projetos > h1 {
     animation: vamos-comecar-ani 3s ease-in-out;
@@ -94,7 +114,7 @@ li{
 }
 
 .titulo{
-    color: #006eff;
+    color: #FFF;
     margin-top: 15px;
     font-size: 1rem;
 }
@@ -106,7 +126,16 @@ li{
 }
 
 .skills{
-    background-color: rgb(47, 47, 47);
+    padding: 50px;
+    background-color: #004197;
+}
+
+.skills-box{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.48);
+    border-radius: 12px;
+    width: 85vw;
+    margin: 0 auto 0px -20px;
+    background-color: #ffffff;
 }
 
 .header2{
@@ -118,30 +147,26 @@ header > p {
     color: #Ffff;
 }
 
-.skills-box{
-    border-radius: 12px;
-    width: 85vw;
-    height: vh;
-    padding: 0px ;
-    margin: 0 auto;
-    background-color: #828080;
-}
+
 
 .skills-box > ul > li{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
     margin-top: 10px;
-    margin-left: 5px;
-    color: rgb(238, 238, 238);
+    margin-left: 7px;
+    color: rgb(0, 0, 0);
     border-bottom: 1px solid black;
 }
 
 
 li > hr {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.511);
     padding: 0;
     height: 3px;
     width: 20px;
     margin-top: -10px;
     margin-left: 75px;
-    background-color: rgb(0, 0, 0);
+    background-color: #006EFF;
 }
 
 .html{
@@ -165,6 +190,9 @@ li > hr {
 }
 
 .contato{
+    box-shadow:  1px 1px 10px black;
+    padding: 50px;
+    background-color: #006EFF;
     text-align: center;
 }
 
@@ -174,8 +202,6 @@ li > hr {
 
 }
 
-
-
 button {
     margin: 10px auto 0px auto;
     position: relative;
@@ -183,7 +209,7 @@ button {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    background:  #006eff;
+    background:  #004197;
     font-family: "Montserrat", sans-serif;
     box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -194,7 +220,7 @@ button:after {
     content: " ";
     width: 0%;
     height: 100%;
-    background:#004197;
+    background:#828080;
     position: absolute;
     transition: all 0.4s ease-in-out;
     right: 0;
@@ -227,21 +253,28 @@ button:hover span {
 
 footer{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 0px;
     background-color: #000000;
     color: #Ffff;
     padding: 20px;
 }
 
 footer > a {
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 7px;
     filter: blur(1px);
     
 }
 
-footer > p {
-    margin-top: 10px;
+.contato > p {
+    padding: 2px;
+    border-bottom: 1px solid rgb(252, 252, 252);
+    margin-bottom: 30px;
+}
+
+.contato > h1{
+    margin-bottom: 20px;
 }
 
 footer > a:hover{
@@ -326,5 +359,6 @@ footer > a:hover{
         opacity: 100;
     }
 }
+
 
 
