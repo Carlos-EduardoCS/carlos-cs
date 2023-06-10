@@ -4,78 +4,59 @@
 /* -pc- 992*/
 @media screen and (min-width: 992px){
     body{
-        background-image: url(imagens/defalt-bg.svg);
-        background-color: var(--contrast-color);
+        background-image: url(imagens/dafault-bg.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
-    .container{
-        height: 100vh;
-        gap: px;
-        justify-content: ;
+    main{
+        justify-content: space-around;
         display: flex;
     }
 
-    .carlos{
-        margin-top: 90px;
-        margin-left: 40vw;
-        width: 400px;
-        display: block;
-        animation: carlos-ani 1.5s ease-in-out;
+    .apresentacao{
+        margin-top: 20%;
+        font-family: 'coolvetica' ;
+        color: #Ffff;
     }
 
-    .intro{
-        margin-top: 20%;
-        left: 25px;
-        font-family:'coolvetica';
-        font-size: 22px;
-        letter-spacing: .7px;
-        color:rgb(138, 138, 138);
-        width: 450px;
+    .carlos{
+        margin-top: 5%;
+        width: 500px;
+        border-radius: 25px;
+        display: block;
     }
 
     .blob1{
+        display: block;
         position: absolute;
-        display: block;
-        top: 5%;
-        left: 52%;
         width: 100px;
-        animation: carlos-ani 3.5s ease-in-out;
+        top: 10%;
+        left: 49%;
     }
-
+    
     .blob2{
-        margin-left: 52%;
-        margin-top: -5%;
-        width: 150px;
         display: block;
-        animation: carlos-ani 6.5s ease-in-out;
+        position: absolute;
+        left: 85%;
+        width: 75px;
     }
-
+    
     .blob3{
-        margin-left: 95%;
-        margin-top: -35%;
         display: block;
-        width: 150px;
-        animation: carlos-ani 7s ease-in-out;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        width: 75px;
     }
 
-    .intro > h1 {
-        font-size: 2rem;
+    .blob4{
+        display: block;
+        position: absolute;
+        top: 20%;
+        left: 75%;
+        width: 75px;
     }
-
-    .intro > p{
-        font-size: 1rem;
-    }
-
-    button{
-        margin-left: -2px;
-    }
-    :root {
-        --secondary-color: rgb(138, 138, 138);
-        --contrast-color: rgba(44, 44, 44, 0.576);;
-    }
-
-
-
 }
 
 @keyframes carlos-ani {
