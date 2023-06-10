@@ -9,8 +9,9 @@
     }
 
     .container{
-        gap: 50px;
-        justify-content: space-around;
+        height: 100vh;
+        gap: px;
+        justify-content: ;
         display: flex;
     }
 
@@ -23,8 +24,7 @@
     }
 
     .intro{
-        position: absolute;
-        top: -700px;
+        margin-top: 20%;
         left: 25px;
         font-family:'coolvetica';
         font-size: 22px;
