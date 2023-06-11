@@ -25,6 +25,7 @@
 body{
     background-image: url(../imagens/9.16-B.svg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1{
