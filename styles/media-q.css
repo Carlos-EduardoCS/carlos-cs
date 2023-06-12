@@ -41,6 +41,13 @@
         letter-spacing: .5px;
         font-family: 'BOLDFONT';
     }
+
+    span{
+        font-size: 3rem;
+        margin-bottom: -100px;
+        font-family: 'BOLDFONT';
+    }
+    
     
     .p1{
         font-weight: bold;
@@ -65,10 +72,6 @@
 
     .wave1{
         display: none;
-    }
-
-    .container_mouse{
-        margin-top: -100px;
     }
 
 }
