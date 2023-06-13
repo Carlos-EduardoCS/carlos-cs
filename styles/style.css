@@ -101,6 +101,14 @@ abbr, a{
     background-color: #Fff;
 }
 
+.skils > h1{
+    color: #dfbe07;
+    font-family: 'BOLDFONT';
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
 .contact{
     padding: 20px;
     background-color: #000;
@@ -133,6 +141,106 @@ button:active {
     box-shadow: 1px 1px 10px #dfbe07;
     transform: translateY(10px);
     transition: 100ms;
+}
+
+ul{
+    list-style: none;
+}
+
+hr{
+    background-color: #dfbe07;
+    border: none;
+    margin-top: 5px;
+    width: 250px;
+    height: 2px;
+}
+
+ul > li{
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+ul > li:hover{
+    cursor: pointer;
+    transition: 500ms ease-in-out;
+    transform: translateY(-1.5px);
+}
+
+li > i {
+    margin: 1px;
+}
+
+.leanguage:hover{
+    cursor: pointer;
+}
+
+.in-skils{
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid black;
+    box-shadow: 0px 2px 17px rgba(0, 0, 0, 0.164);
+}
+
+.css{
+    animation: css-ani 1.8s ;
+}
+
+.html{
+    width: 270px;
+    animation: html-ani 1.7s ;
+}
+
+.js{
+    width: 150px;
+    animation: js-ani 2.1s;
+}
+
+.boot{
+    width: 100px;
+    animation: boot-ani 2.3s;
+
+}
+
+@keyframes css-ani {
+    0%{
+        width: 0px;
+    }
+
+    100%{
+        width: 250px;
+    }
+}
+
+@keyframes html-ani {
+    0%{
+        width: 0px;
+    }
+
+    100%{
+        width: 270px;
+    }
+}
+
+@keyframes js-ani {
+    0%{
+        width: 0px;
+    }
+
+    100%{
+        width: 150px;
+    }
+}
+
+@keyframes boot-ani {
+    0%{
+        width: 0px;
+    }
+
+    100%{
+        width: 100px;
+    }
 }
 
 
