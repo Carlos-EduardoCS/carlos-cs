@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/media-q.css">
 
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <link rel="shortcut icon" href="imgs/a679bdee-3804-4d5f-9d26-371b37834f6f.png" type="image/x-icon">
 
     <title>Carlos | Developer</title>
@@ -16,43 +18,45 @@
 <body>
     <main>
         <div class="start">
-            <p class="p1">
-                Oi, 👋 Meu nome é CARLOS
-            </p>
-            <h1>
-                <span>FULL STACK</span> 
-                <abbr title="Viste meu GitHub">
-                    <a href="https://github.com/Carlos-EduardoCS" target="_blank">
-                        <i class="fa-brands fa-github fa-2xs" style="color: #dfbe07;">
-                        </i>
-                    </a>
-                </abbr>
-
-                <abbr title="Viste meu Linkedin">
-                    <a href="https://www.linkedin.com/in/carlos-eduardo-04656a26a/" target="_blank">
-                        <i class="fa-brands fa-linkedin fa-2xs" style="color: #dfbe07;">
-                        </i>
-                    </a>
-                </abbr>
-
-                <abbr title="Veja meu curriculo">
-                    <a href="">
-                        <i class="fa-solid fa-file fa-2xs" style="color: #dfbe07;">
-                        </i>
-                    </a>
-                </abbr>
+            <div class="in-start">
+                <p class="p1">
+                    Oi, 👋 Meu nome é CARLOS
+                </p>
+                <h1>
+                    <span>FULL STACK</span>
+                    <abbr title="Viste meu GitHub">
+                        <a href="https://github.com/Carlos-EduardoCS" target="_blank">
+                            <i class="fa-brands fa-github fa-2xs" style="color: #dfbe07;">
+                            </i>
+                        </a>
+                    </abbr>
+                    <abbr title="Viste meu Linkedin">
+                        <a href="https://www.linkedin.com/in/carlos-eduardo-04656a26a/" target="_blank">
+                            <i class="fa-brands fa-linkedin fa-2xs" style="color: #dfbe07;">
+                            </i>
+                        </a>
+                    </abbr>
+                    <abbr title="Veja meu curriculo">
+                        <a href="">
+                            <i class="fa-solid fa-file fa-2xs" style="color: #dfbe07;">
+                            </i>
+                        </a>
+                    </abbr>
                 
-                <br>
-                <strong>DEVELOPER</strong>
-            </h1>
-            <p class="p2"> 
-                Tenho 17 anos, e sou <br>
-                apaixonado por desafios.
-            </p>
+                    <br>
+                    <strong>DEVELOPER</strong>
+                </h1>
+                <p class="p2">
+                    Tenho 17 anos, e sou <br>
+                    apaixonado por novos desafios.
+                </p>
+            </div>
+
+            <img class="carlos" src="imgs/carlos.png" alt="">
         </div>
 
 
-        <img class="carlos" src="imgs/carlos.png" alt="">
+       
         <img class="wave1" src="imgs/wave.png" alt="">
 
         <article>
@@ -64,8 +68,8 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ducimus deserunt, odit exercitationem alias sequi. Deserunt quibusdam ut voluptate pariatur illo. Soluta consequatur minus sunt atque earum nisi cumque nemo.
             </div>
 
-            <div class="skils" onclick="linguagens()">
-                    <h1>
+            <div class="skils">
+                    <h1 class="skils-h1">
                         Skils
                     </h1>
                 <div class="in-skils">
@@ -92,16 +96,44 @@
             </div>
             <div class="contact">
                 <div class="in-contact">
-                    <a href="">
-                        <button> Enviar mensagem
+                    <div class="txt-instart">
+                        <h1 class="port-h1">
+                            Curtiu o portifólio?
+                        </h1>
+                        <p>
+                            Fale comigo!
+                        </p>
+                    </div>
+                    <a href="https://api.whatsapp.com/send/?phone=5519996643835&text&type=phone_number&app_absent=0" target="_blank">
+                        <button class="btn1"> 
+                            Enviar mensagem
                         </button>
                     </a>
                 </div>
             </div>
+
         </article>
     </main>
     <footer>
+        <a href="">
+            <i class="fa-brands fa-facebook fa-xl" style="color: #ffffff;"></i>
+        </a>
 
+
+        <a href="">
+            <i class="fa-brands fa-twitter fa-xl" style="color: #ffffff;"></i>
+        </a>
+
+
+
+        <a href="">
+            <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i>
+        </a>
+
+        
+        <p>
+            Made with 💛 By Carlos
+        </p>
     </footer>
     <script src="js/script.js"></script>
 </body>

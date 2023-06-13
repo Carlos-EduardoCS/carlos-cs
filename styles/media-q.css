@@ -21,6 +21,8 @@
     }
 
     .start{
+        display: flex;
+        justify-content: space-around;
         height: 90vh;
         color: rgb(42, 42, 42);
         margin-left: 25px;
@@ -62,16 +64,50 @@
     }
 
     .carlos{
-        border-radius: 16%;
+        margin-top: -12%;
         width: 500px;
+        height: 500px;
+        border-radius: 19px;
         display: block;
-        position: absolute;
-        top: 12%;
-        left: 50%;
     }
 
     .wave1{
         display: none;
+    }
+
+    .in-skils{
+        width: 500px;
+        margin: 0 auto;
+        padding: 30px;
+        border-radius: 12px;
+        border: 1px solid black;
+        box-shadow: 0px 2px 17px rgba(0, 0, 0, 0.164);
+        visibility: hidden;
+    }
+
+    button{
+        margin-left: 40%;
+    }
+
+    
+    footer{
+        padding: 20px;
+        text-align: center;
+        color: #ffffff;
+        background-color: #000000;
+    }
+
+    footer > a{
+        visibility: hidden;
+        margin-left: 5px;
+    }
+
+    footer > p{
+        margin-top: 20px;
+    }
+
+    .port-h1{
+
     }
 
 }
